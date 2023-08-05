@@ -16,7 +16,7 @@ sudo apt install -y sshpass
 
 ## To manually connect with iLO use:
 ``` bash
-ssh -oHostKeyAlgorithms=ssh-rsa -oKexAlgorithms=+diffie-hellman-group14-sha1 Administrator@YOUR_IP
+ssh -oHostKeyAlgorithms=ssh-rsa -oKexAlgorithms=+diffie-hellman-group14-sha1 USER@iLO_IP
 ```
 
 ## To manually stress the server use:
