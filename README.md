@@ -4,7 +4,7 @@ Simple script for silencing, the server, lowering the fan speed.
 
 After downloading the script, remeber to change the variables at the top of the script.
 
-**Custom iLO 4 is required, check https://github.com/kendallgoto/ilo4_unlock**
+**Custom iLO 4 is required, check: https://github.com/kendallgoto/ilo4_unlock**
 
 
 
