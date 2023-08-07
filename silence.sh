@@ -56,10 +56,10 @@ sshpass -p "$PSWD" ssh ${OPT} ${USER}@${IP} 'fan pid 02 lo '${PWM}'00'  # Lower 
 sshpass -p "$PSWD" ssh ${OPT} ${USER}@${IP} 'fan pid 03 lo '${PWM}'00'  # Lower minimum fans PWM from "CPU-02" sensor to 20.00
 sshpass -p "$PSWD" ssh ${OPT} ${USER}@${IP} 'fan pid 24 lo '${PWM}'00'  # Lower minimum fans PWM from "HD Controller" sensor to 20.00
 
-sshpass -p "$PSWD" ssh ${OPT} ${USER}@${IP} 'fan t 02 caut -10'  # Lower cautional temperature threshild for "CPU-01" (for safety reason)
-sshpass -p "$PSWD" ssh ${OPT} ${USER}@${IP} 'fan t 02 crit -05'  # Lower critical temperature threshild for "CPU-01" (for safety reason)
-sshpass -p "$PSWD" ssh ${OPT} ${USER}@${IP} 'fan t 03 caut -10'  # Lower cautional temperature threshild for "CPU-02" (for safety reason)
-sshpass -p "$PSWD" ssh ${OPT} ${USER}@${IP} 'fan t 03 crit -05'  # Lower critical temperature threshild for "CPU-02" (for safety reason)
+sshpass -p "$PSWD" ssh ${OPT} ${USER}@${IP} 'fan t 01 caut -10'  # Lower cautional temperature threshild for "CPU-01" (for safety reason)
+sshpass -p "$PSWD" ssh ${OPT} ${USER}@${IP} 'fan t 01 crit -05'  # Lower critical temperature threshild for "CPU-01" (for safety reason)
+sshpass -p "$PSWD" ssh ${OPT} ${USER}@${IP} 'fan t 02 caut -10'  # Lower cautional temperature threshild for "CPU-02" (for safety reason)
+sshpass -p "$PSWD" ssh ${OPT} ${USER}@${IP} 'fan t 02 crit -05'  # Lower critical temperature threshild for "CPU-02" (for safety reason)
 
 
 
